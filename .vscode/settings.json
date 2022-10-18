@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "WeatherData.jar",
+        "junit-platform-console-standalone-1.2.0.jar"
+    ]
+}
