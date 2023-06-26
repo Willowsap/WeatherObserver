@@ -17,8 +17,8 @@ compile: $(JUNIT5_JAR)
 test: $(JUNIT5_JAR)
 	java -cp .:bin:$(JUNIT5_JAR) $(JUNIT5_RUNNER) --scan-class-path 
 
-demo: bin/tests/Demo.class
-	java -cp .:bin tests/Demo
+demo: bin/client/Demo.class
+	java -cp .:bin client/Demo
 
 clean:
 	rm -f *~
